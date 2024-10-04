@@ -18,3 +18,15 @@ The curly braces {} are used to clearly denote the variable name.
 echo ${test}
 This line prints the value of the variable test directly.
 The value "Hello Linux" will be outputted to the terminal.
+
+
+---------------------------------------------------------------------------------------------------------
+
+some variables are already defined in Bash.
+eg;  DATE, TEMP, HOSTNAME, PUBLIC, PWD etc 
+
+these variables are always written in capital letters for easy access and clear formatting.
+
+---------------------------------------------------------------------------------------------------------
+
+2 variables can be added by using "$((variable1 + variable2))" format.
