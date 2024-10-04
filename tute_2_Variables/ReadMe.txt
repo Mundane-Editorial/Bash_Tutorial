@@ -30,3 +30,16 @@ these variables are always written in capital letters for easy access and clear 
 ---------------------------------------------------------------------------------------------------------
 
 2 variables can be added by using "$((variable1 + variable2))" format.
+and the output can be stored in another variable while execution and then further be printed whenever needed.
+
+eg : 
+
+variable1=50
+variable2=20
+variable3=$((variable1 + variable2))
+
+echo $variable3
+
+> Output of a particular command can also be stored in a variable
+eg : files=$(ls)
+     echo $files
